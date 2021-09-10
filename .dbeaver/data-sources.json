@@ -20,6 +20,22 @@
 					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2",
 					"allowPublicKeyRetrieval": "TRUE"
 				},
+				"auth-model": "native"
+			}
+		},
+		"mysql8-17bce6453f5-83b99171a62adb9": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "mydb720",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "mydb720",
+				"url": "jdbc:mysql://localhost:3306/mydb720",
+				"home": "C:\\Program Files\\MySQL\\MySQL Router 8.0",
+				"type": "dev",
 				"auth-model": "native",
 				"handlers": {}
 			}
