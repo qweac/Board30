@@ -24,7 +24,7 @@ DELETE FROM test_write WHERE wr_uid = #{uid}
 
 # 3. updateOk.jsp
 
-### 원인 : int 값이 들어가야하는데 공백이 들어가있음
+### 원인 : For input string: ""
 ```
 //수정
 location.href = "view.do?uid=${uid}";
